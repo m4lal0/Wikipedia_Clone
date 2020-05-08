@@ -31,7 +31,8 @@ div {
 
 main .main-lenguajes {
   display: flex;
-  /* height: 320px; */
+  height: 330px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 main .main-lenguajes .main-logo{
@@ -56,6 +57,96 @@ main .main-lenguajes .main-logo .language-english {
   right: 150px;
 }
 
+main .main-lenguajes .main-logo .language-spanish {
+  text-align: center;
+  display: block;
+  width: 125px;
+  height: 45px;
+  position: absolute;
+  top: 0px;
+  left: 150px;
+}
+
+main .main-lenguajes .main-logo .language-chinese {
+  text-align: center;
+  display: block;
+  width: 125px;
+  height: 45px;
+  position: absolute;
+  top: 65px;
+  right: 220px;
+}
+
+main .main-lenguajes .main-logo .language-german {
+  text-align: center;
+  display: block;
+  width: 125px;
+  height: 45px;
+  position: absolute;
+  top: 65px;
+  left: 220px;
+}
+
+main .main-lenguajes .main-logo .language-french {
+  text-align: center;
+  display: block;
+  width: 125px;
+  height: 45px;
+  position: absolute;
+  top: 130px;
+  right: 230px;
+}
+
+main .main-lenguajes .main-logo .language-roussian {
+  text-align: center;
+  display: block;
+  width: 125px;
+  height: 45px;
+  position: absolute;
+  top: 130px;
+  left: 230px;
+}
+
+main .main-lenguajes .main-logo .language-italian {
+  text-align: center;
+  display: block;
+  width: 125px;
+  height: 45px;
+  position: absolute;
+  top: 195px;
+  right: 220px;
+}
+
+main .main-lenguajes .main-logo .language-japanese {
+  text-align: center;
+  display: block;
+  width: 125px;
+  height: 45px;
+  position: absolute;
+  top: 195px;
+  left: 220px;
+}
+
+main .main-lenguajes .main-logo .language-portuguese {
+  text-align: center;
+  display: block;
+  width: 125px;
+  height: 45px;
+  position: absolute;
+  top: 260px;
+  right: 150px;
+}
+
+main .main-lenguajes .main-logo .language-polish {
+  text-align: center;
+  display: block;
+  width: 125px;
+  height: 45px;
+  position: absolute;
+  top: 260px;
+  left: 150px;
+}
+
 main .main-lenguajes a {
   color: #36c;
   text-decoration: none;
@@ -67,4 +158,50 @@ main .main-lenguajes span {
   font-size: 12px;
   font-weight: 400;
   display: block;
+}
+
+main .main-search {
+  display: block;
+}
+
+main .main-search-container {
+  /* display: flex; */
+  text-align: center;
+  align-items: center;
+}
+
+main .main-search-container input {
+  width: 400px;
+  height: 40px;
+  border: 1px solid gray;
+  border-radius: 3px;
+  border-right: none;
+  line-height: 1.5;
+}
+
+main .main-search-container select {
+  width: 50px;
+  height: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: gray;
+  margin-left: -51px;
+  border: none;
+}
+
+main .main-search-container button {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/4f/Search-button.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50px;
+  height: 45px;
+  border: none;
+}
+
+option {
+  font-weight: normal;
+  display: block;
+  white-space: pre;
+  min-height: 1.2em;
+  padding: 0px 2px 1px;
 }
