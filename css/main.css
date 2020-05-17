@@ -165,8 +165,8 @@ main .main-search {
 }
 
 main .main-search-container {
-  /* display: flex; */
-  text-align: center;
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
@@ -204,4 +204,22 @@ option {
   white-space: pre;
   min-height: 1.2em;
   padding: 0px 2px 1px;
+}
+
+main .main-select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+main .main-select select {
+  background-color: #f8f9fa;
+  width: 250px;
+  height: 30px;
+  color: #36c;
+  border: 1px solid #a3a9b1;
+  border-radius: 3px;
+  text-align-last: center;
 }
