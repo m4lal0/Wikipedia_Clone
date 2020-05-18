@@ -253,7 +253,7 @@ main .main-wikipedia-info .wikipedia-about .wikimedia-about {
   padding: 10px;
 }
 
-main .main-wikipedia-info .wikipedia-about .wikimedia-about img {
+main .main-wikipedia-info .wikipedia-about .wikimedia-about img, .download-info img {
   width: 45px;
   height: 45px;
   padding-right: 10px;
@@ -266,6 +266,36 @@ main .main-wikipedia-info .wikipedia-about .wikimedia-about p {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
+
+main .main-wikipedia-info .wikipedia-about .download {
+  background-color: #f8f9fa;
+  padding: 10px;
+}
+
+main .main-wikipedia-info .wikipedia-about .download .download-info {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+main .main-wikipedia-info .wikipedia-about .download .download-info p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+main .main-wikipedia-info .wikipedia-about .download .download-app {
+  display: flex;
+  justify-content: center;
+}
+
+main .main-wikipedia-info .wikipedia-about .download .download-app img {
+  width: 120px;
+  height: 50px;
+  cursor: pointer;
+}
+
 
 main .main-projects {
   display: grid;
