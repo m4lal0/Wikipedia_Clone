@@ -16,7 +16,7 @@ header img {
   width: 15%;
   height: 15%;
   margin-top: 15px;
-  margin-bottom: 0;
+  margin-bottom: -15px;
 }
 
 header span {
@@ -233,6 +233,46 @@ main .main-select select {
   border: 1px solid #a3a9b1;
   border-radius: 3px;
   text-align-last: center;
+}
+
+main .main-wikipedia-info {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: 50px;
+}
+
+main .main-wikipedia-info .wikipedia-about {
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  font-size: 13px;
+}
+
+main .main-wikipedia-info .wikipedia-about .wikimedia-about {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+main .main-wikipedia-info .wikipedia-about .wikimedia-about img {
+  width: 45px;
+  height: 45px;
+  padding-right: 10px;
+}
+
+main .main-wikipedia-info .wikipedia-about .wikimedia-about p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+main .main-projects {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 10px;
+  padding: 10px;
 }
 
 footer {
