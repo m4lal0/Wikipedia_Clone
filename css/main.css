@@ -305,6 +305,31 @@ main .main-projects {
   padding: 10px;
 }
 
+main .main-projects .project-item {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+
+main .main-projects .project-item img {
+  width: 40px;
+  height: 40px;
+}
+
+main .main-projects .project-item a {
+  text-decoration: none;
+  color: #36c;
+  padding-left: 10px;
+}
+
+main .main-projects .project-item a span {
+  display: block;
+}
+
+main .main-projects .project-item span {
+  color: gray;
+}
+
 footer {
   font-size: 12px;
   text-align: center;
