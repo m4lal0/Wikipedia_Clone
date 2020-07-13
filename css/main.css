@@ -1,3 +1,7 @@
+/* html::after {
+  content: "Error Server 500";
+} */
+
 body {
   margin: 0;
   padding: 0;
